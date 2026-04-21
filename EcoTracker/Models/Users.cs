@@ -16,4 +16,6 @@ public class Users
     
     public string? RefreshToken { get; set; }
     public DateTime? RefreshToeknExpiry { get; set; }
+    
+    public decimal? TotalCarbonSaved { get; set; }
 }
